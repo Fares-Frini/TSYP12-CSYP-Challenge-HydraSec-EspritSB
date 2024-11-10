@@ -32,6 +32,15 @@ In this work, we have provided an in-depth exploration of the scientific aspects
 ## 💻 <span style="color: #007acc;">Interfaces</span> <a name = "interfaces"></a>
 In our visualization efforts, we utilized the <span style="color: #007acc;">Grafana dashboard</span>, a flexible, user-friendly, and intuitive tool designed for displaying diverse data metrics. Grafana's capabilities allow for efficient monitoring and real-time alerting, providing deep insights into system health, security incidents, and various data streams. This enables streamlined data analysis, making it a crucial component for visualizing and understanding our models' outputs and system behavior. [<span style="color: #ff4500;">Here</span>](https://github.com/Fares-Frini/TSYP12-CSYP-Challenge/tree/main/Interfaces)
 
+Grafana Dashboard :
+<p align="center">
+ <img src="/images/grafana.jpg">
+</p>
+<p align="center">
+ <img src="/images/grafana2.jpg">
+</p>
+
+
 ## 🛡️ <span style="color: #007acc;">SIEM</span> <a name = "siem"></a>
 We leveraged <span style="color: #007acc;">Wazuh</span>, a Security Information and Event Management (SIEM) tool, to provide comprehensive security monitoring and threat detection. Wazuh's capabilities include log data aggregation, monitoring of system activity, and real-time alerting for potential threats. Its robust analysis tools enable the identification of security incidents, helping ensure system integrity and compliance. This integration enhances visibility across the infrastructure and supports rapid, data-driven decision-making to counter cyber threats effectively. [<span style="color: #ff4500;">Here</span>](https://github.com/Fares-Frini/TSYP12-CSYP-Challenge/tree/main/SIEM)
 
@@ -45,7 +54,7 @@ We utilize advanced AI models to enhance cybersecurity detection and response. <
 ## ⚙️ <span style="color: #007acc;">System d'Exploitations</span> <a name = "sysexp"></a>
 To evaluate the efficiency of our solution, we conducted extensive testing using various <span style="color: #007acc;">Linux environments</span>. We employed <span style="color: #007acc;">Kali Linux</span> for simulating different types of cyberattacks due to its robust suite of penetration testing tools. Additionally, we utilized <span style="color: #007acc;">Metasploitable</span>, a deliberately vulnerable Linux machine, to simulate real-world attack scenarios. This testing approach allowed us to assess the system's detection and response capabilities comprehensively, ensuring robust performance against diverse threats in controlled conditions.
  [<span style="color: #ff4500;">Here</span>](https://github.com/Fares-Frini/TSYP12-CSYP-Challenge/tree/main/Ses)
- 
+
  ## 🏗️<span style="color: #007acc;"> Architecture and Infrastructure</span>
   <a name = "architecture_infrastructure"></a>
  
