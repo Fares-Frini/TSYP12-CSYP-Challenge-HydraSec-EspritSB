@@ -45,11 +45,14 @@ We utilize advanced AI models to enhance cybersecurity detection and response. <
 ## ⚙️ <span style="color: #007acc;">System d'Exploitations</span> <a name = "sysexp"></a>
 To evaluate the efficiency of our solution, we conducted extensive testing using various <span style="color: #007acc;">Linux environments</span>. We employed <span style="color: #007acc;">Kali Linux</span> for simulating different types of cyberattacks due to its robust suite of penetration testing tools. Additionally, we utilized <span style="color: #007acc;">Metasploitable</span>, a deliberately vulnerable Linux machine, to simulate real-world attack scenarios. This testing approach allowed us to assess the system's detection and response capabilities comprehensively, ensuring robust performance against diverse threats in controlled conditions.
  [<span style="color: #ff4500;">Here</span>](https://github.com/Fares-Frini/TSYP12-CSYP-Challenge/tree/main/Ses)
- ## 🏗️<span style="color: #007acc;"> Architecture and Infrastructure</span> <a name = "architecture_infrastructure"></a>
- * Network Architecture :
-  <img src="/images/architecture.png" alt="Architecture and Infrastructure" width="500">
-* Architecture of our solution :
- <p align="center">
+ ## 🏗️<span style="color: #007acc;"> Architecture and Infrastructure</span> <a name = 
+ "architecture_infrastructure"></a>
  
-</p>
+ - Network Architecture :
+  <img src="/images/architecture.png" alt="Architecture and Infrastructure" width="500" align="center">
+  
+- Architecture of our solution :
+
+ 
+
 
