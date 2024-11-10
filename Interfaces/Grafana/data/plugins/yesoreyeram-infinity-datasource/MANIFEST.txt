@@ -1,0 +1,44 @@
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+{
+  "manifestVersion": "2.0.0",
+  "signatureType": "grafana",
+  "signedByOrg": "grafana",
+  "signedByOrgName": "Grafana Labs",
+  "plugin": "yesoreyeram-infinity-datasource",
+  "version": "2.11.2",
+  "time": 1730213580076,
+  "keyId": "7e4d0c6a708866e7",
+  "files": {
+    "CHANGELOG.md": "7207972aaa0f72c70b10ccee07796fdbcc380dffb4e57764fe43702f344e31d2",
+    "LICENSE": "85fb2c20b586ef9dc00ee5c41140e1cd59fdded9a0b24a9054b04e9f0f6b2977",
+    "README.md": "351dea529ec76dc9b396ef8f29d4ec36cab5ace16040f42142f0c58427ee3a7d",
+    "go_plugin_build_manifest": "b776631d70c0e42c3fe04f1df3daea4fc756d624804b8460f60cf3c5a6fbfb9e",
+    "gpx_infinity_windows_amd64.exe": "ecf30d7459cf2faa2c03d4e58b30dc1e6e9ba0acc8607f3ffa42574f471e38ef",
+    "img/aws.jpg": "e682ccc794708fd3eb32a3fb5e2bcccd8ff3b54f30eba2086fd1b28a82020d81",
+    "img/homepage-bg.svg": "97ec32b2c542bcb63b7fa7659e42a876a5b9ec00aef7a486f2dc41b83d7d9eb8",
+    "img/icon.svg": "e498b00e1cc3c9e8b65a2b8320b7d170c6da61d424fe5f3f3fdf9963204449ae",
+    "img/oauth-2-sm.png": "9945bb307d5545369d50381acc97d48b4a98433831f14e99eb839f0970a91258",
+    "img/slide-features.png": "58aba3b2f2d73ee99945cba9746463f0039d8afb5366ed8d42db62145b914d0f",
+    "img/slide-rest-api.png": "cf72349768e0ccf19a856d86e97c8e67dcdadfcee49e73ae5acbe781c3ae0c79",
+    "img/slide-series.png": "f7d523c39f9d4567974c37432f047e4e8944cb92dc2c9a4424757ce5e54dc3a7",
+    "img/slide-variables.png": "8ed0cd7b1ac00bd2c7fa6e72c513b678c39ba7d63030f06e8695cb1d352e3b34",
+    "module.js": "84f392f33b4c7b8200b7d3568664eb59e6c654810eae15a71bc7b96efc120912",
+    "module.js.LICENSE.txt": "4cc2b646a9dd57535489632cb3201bbbf7731ce1aa626b16c7118b71275f9a8f",
+    "module.js.map": "a7bdf062e55c1ec1cb02cab2efb62286f0f6928a6e0f22b7a50330d80678fe40",
+    "plugin.json": "72258c08e3877ba4573aa285351fd000b4ceae8d28ea64807b9cc83ac17bd96f"
+  }
+}
+-----BEGIN PGP SIGNATURE-----
+Version: OpenPGP.js v4.10.11
+Comment: https://openpgpjs.org
+
+wrkEARMKAAYFAmcg9swAIQkQfk0ManCIZucWIQTzOyW2kQdOhGNlcPN+TQxq
+cIhm5+zwAgkA+/sSmrIwFZwZ48I5knfRwODUtjNjtw8v7NquE/JjdiZRM7yl
+TP7jv8NjxTurAeGEhASrEFeAvV37s3gtBAXR3AICCQGXFR1bOguoPu9z+6UJ
+7cR7ux1JTASz/lHwOD3WzHFLlkIcOboi9BlUyCPfeQ74KY35GCT2yPVhGjrX
+YYD0b05O/w==
+=oody
+-----END PGP SIGNATURE-----
