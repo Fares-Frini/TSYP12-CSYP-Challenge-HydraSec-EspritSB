@@ -12,8 +12,8 @@
 </div>
 ---
 
-<p align=""> <span style="color: #ff4500;">HydraSec</span> is an AI-powered cybersecurity solution utilizing a swarm-based defense approach, leveraging a microservices architecture with Docker and Kubernetes to deliver scalable, adaptive, and real-time threat detection and mitigation across diverse data sources.
-    <br> 
+<p align=""><i> <span style="color: #ff4500;">HydraSec</span> is an AI-powered cybersecurity solution utilizing a swarm-based defense approach, leveraging a microservices architecture with Docker and Kubernetes to deliver scalable, adaptive, and real-time threat detection and mitigation across diverse data sources.
+    <br> <i>
 </p>
 
 ## 📝 <span style="color: #007acc;">Table of Contents</span>
@@ -45,13 +45,30 @@ We utilize advanced AI models to enhance cybersecurity detection and response. <
 ## ⚙️ <span style="color: #007acc;">System d'Exploitations</span> <a name = "sysexp"></a>
 To evaluate the efficiency of our solution, we conducted extensive testing using various <span style="color: #007acc;">Linux environments</span>. We employed <span style="color: #007acc;">Kali Linux</span> for simulating different types of cyberattacks due to its robust suite of penetration testing tools. Additionally, we utilized <span style="color: #007acc;">Metasploitable</span>, a deliberately vulnerable Linux machine, to simulate real-world attack scenarios. This testing approach allowed us to assess the system's detection and response capabilities comprehensively, ensuring robust performance against diverse threats in controlled conditions.
  [<span style="color: #ff4500;">Here</span>](https://github.com/Fares-Frini/TSYP12-CSYP-Challenge/tree/main/Ses)
- ## 🏗️<span style="color: #007acc;"> Architecture and Infrastructure</span> <a name = 
- "architecture_infrastructure"></a>
+ ## 🏗️<span style="color: #007acc;"> Architecture and Infrastructure</span>
+  <a name = "architecture_infrastructure"></a>
  
  - Network Architecture :
   <img src="/images/architecture.png" alt="Architecture and Infrastructure" width="500" align="center">
   
-- Architecture of our solution :
+- DMZ Architecture :
+ <img src="/images/DMZ.png" alt="Architecture and Infrastructure" width="500" align="center">
+
+| **Step**     | **Description**                                                                                                                                              |
+|--------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **1 + 2**    | Users gain access to **Elasticsearch** after successful authorization through **pfSense**.                                                                  |
+| **3**        | **Wazuh** retrieves relevant data from the database server (**FreeNAS**).                                                                                   |
+| **4**        | After analyzing the retrieved data, **Wazuh** communicates with **Grafana** to display visualized results.                                                  |
+| **5**        | Concurrently, **Wazuh** sends data to the **Windows server**, which processes it using various AI models, including:                                        |
+|              | • **Endpoints Protection** using Reinforcement Learning                                                                                                      |
+|              | • **Malware Generation and Detection** with GAN                                                                                                             |
+|              | • **Network Traffic Analysis** using LSTM                                                                                                                   |
+|              | • **Phishing Mail Detection** through Data Augmentation and NLP                                                                                             |
+|              | • **IP Profiling Detection** using Unsupervised Learning                                                                                                    |
+| **6**        | If any anomalies or threats are detected, **Wazuh** responds by updating the **database server (FreeNAS)**.                                                 |
+| **7**        | The detected anomalies are sent to **Grafana** for real-time visualization and monitoring.                                                                  |
+
+
 
  
 
